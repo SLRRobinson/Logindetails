@@ -27,6 +27,7 @@ public class PersonBusiness {
 		person.bringPerson("Roy", "Robinson");
 		person.getLastName();
 		System.out.println(per.getLastName());
+		System.out.println(per.toString());
 		
 		Scanner myObj = new Scanner(System.in);  // Create a Scanner object
 	    System.out.println("Enter username");

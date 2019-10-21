@@ -52,6 +52,16 @@ public class Person {
 		System.out.println("Hello my name is:  " + name + ",  And LastName is:  " + lastName);
 		
 	}
+	
+	public Person perReturn(String name, String lastName) {
+		return Person.this;
+	}
+	
+	public String toString() {
+		System.out.println("from toString method");
+		return this.lastName + " "+ name;
+		
+	}
 		
 	
 }

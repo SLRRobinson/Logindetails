@@ -58,7 +58,7 @@ public class Person {
 	}
 	
 	public String toString() {
-		System.out.println("from toString method");
+		System.out.println("from toString method string heoo");
 		return this.lastName + " "+ name;
 		
 	}
